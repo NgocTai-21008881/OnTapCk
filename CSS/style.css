@@ -1,0 +1,99 @@
+
+.modal.open {
+    display: flex;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0,3);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-container {
+    background: #fff;
+    width: 900px;
+    max-width: calc(100%-32px);
+    min-height: 200px;
+    position: relative;
+}
+
+label.modal-label-header {
+    font-size: 40px;
+}
+
+.modal-header {
+    padding: 10px;
+    height: 80px;
+}
+
+.modal-close:hover {
+    opacity: 1;
+}
+
+.modal-close {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 15px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.modal-body {
+    padding: 10px;
+}
+
+label.modal-label {
+    display: block;
+}
+
+input.modal-input {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 9px;
+    font-size: 14.5px;
+    margin-bottom: 12px;
+}
+
+label.modal-label {
+    /* margin-bottom: 12px; */
+    font-weight: 600;
+}
+
+.modal-select {
+    width: 100%;
+}
+
+select#modal-select {
+    padding: 10px 16px;
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+button.close-1 {
+    position: absolute;
+    color: white;
+    width: 80px;
+    padding: 15px;
+    background: rgb(28, 152, 152);
+    right: 10px;
+    top: 0;
+}
+
+.modal-footer {
+    position: relative;
+}
+
+button#book {
+    color: white;
+    width: 100px;
+    padding: 15px;
+    background: rgb(28, 152, 152);
+}
